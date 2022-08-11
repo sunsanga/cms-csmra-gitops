@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: sunil-test-github-another
+  namespace: flux-system
+stringData:
+  type: git
+  url: https://github.com/mytesting
+  password: test_password_mateen1
+  username: test_username_mateen2
